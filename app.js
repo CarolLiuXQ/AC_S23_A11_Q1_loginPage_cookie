@@ -6,6 +6,7 @@ const bodyParser = require('body-parser')
 const methodOverride = require('method-override')
 // const router = express.Router()
 
+require('./config/mongoose')
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 app.use(express.urlencoded({ extended: true }))
