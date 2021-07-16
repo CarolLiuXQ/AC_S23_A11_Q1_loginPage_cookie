@@ -1,0 +1,10 @@
+{
+  "emailInvalid": {
+    "invalid": "is-invalid",
+    "emailInvalidMessage": "<div id='email' class='invalid-feedback'>We don't have this email.</div>"
+  },
+  "passwordInvalid": {
+    "invalid": "is-invalid",
+    "passwordInvalidMessage": "<div id='password' class='invalid-feedback'>Your password is wrong.</div>"
+  }
+}
