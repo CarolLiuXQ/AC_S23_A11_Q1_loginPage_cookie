@@ -14,7 +14,7 @@ AlphaCamp學期2-3，A10作業專案的Check Password，
 
 ![首頁](./homepage.PNG)
 ![密碼驗證](./verifyPassword.PNG)
-![驗證成功轉跳home頁面](./verifyPassword.PNG)
+![驗證成功轉跳home頁面](./verifySuccessed.PNG)
 
 
 ### 安裝與執行步驟
