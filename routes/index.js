@@ -27,7 +27,7 @@ router.post('/login', (req, res) => {
       }
       //如果密碼錯誤
       else if (user.password !== password) {
-        res.render('login', { passwordInvalid: invalidStatus.passwordInvalid })
+        res.render('login', { passwordInvalid: invalidStatus.passwordInvalid, email })
       }
       //如果email和密碼對
       else if (user.password === password) {
