@@ -1,6 +1,6 @@
-# AC學期2-3_A10_Q1_Check Password
+# AC學期2-3_A11_Q1_Check Password-set cookie
 
-AlphaCamp學期2-3，A10作業專案的Check Password，  
+AlphaCamp學期2-3，A10作業專案的Check Password-set cookie，  
 使用 Node.js , Express , express-handlebars 打造的login介面並認證資料。
 
 ## 功能描述
@@ -9,12 +9,14 @@ AlphaCamp學期2-3，A10作業專案的Check Password，
 - 如果email驗證失敗會在login畫面中說密碼錯誤
 - 如果無此email會顯示說沒有此帳號
 - 驗證成功會轉跳home page，並顯示Welcome back + 使用者名稱
+- 並且有Profile Page可以供使用者確認個人資料
 
 ## Screenshots
 
 ![首頁](./homepage.PNG)
 ![密碼驗證](./verifyPassword.PNG)
 ![驗證成功轉跳home頁面](./verifySuccessed.PNG)
+![驗證成功轉跳home頁面](./profile.PNG)
 
 
 ### 安裝與執行步驟
@@ -28,7 +30,7 @@ git clone https://github.com/CarolLiuXQ/AC_S23_A10_Q1_check_password
 2. 初始
 
 ```
-cd S23_A10_Q1_check_password  //切至專案資料夾
+cd AC_S23_A10_Q1_check_password  //切至專案資料夾
 ```
 
 ```
@@ -55,6 +57,8 @@ npm run dev  //執行程式
 - [Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
 - [body-parser](https://www.npmjs.com/package/body-parser)
 - [nodemon](https://www.npmjs.com/package/nodemon)
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+- [mongoose](https://www.npmjs.com/package/mongoose)
 
 
 ## License

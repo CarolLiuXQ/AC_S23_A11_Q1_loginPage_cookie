@@ -1,0 +1,25 @@
+{{#if user}}
+<ol class="list-group list-group-numbered">
+  <li class="list-group-item">
+    First Name： {{user.firstName}}
+    <button type="button" class="btn btn-outline-dark">Edit</button>
+  </li>
+  <li class="list-group-item">
+    Email： {{user.email}}
+    <button type="button" class="btn btn-outline-dark">Edit</button>
+  </li>
+  <li class="list-group-item">
+    Password：{{user.password}}
+    <button type="button" class="btn btn-outline-dark">Edit</button>
+  </li>
+</ol>
+<a href="/home">
+  <button type="button" class="btn btn-outline-danger mt-5">Cancel</button>
+</a>
+
+{{else}}
+<h1 style="display: inline;">Please login first</h1>
+<a href="/login">
+  <button type="button" class="btn btn-info mx-5">Login</button>
+</a>
+{{/if}}

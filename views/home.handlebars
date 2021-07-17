@@ -1,1 +1,11 @@
-<h1>Welcome back, {{firstName}}!</h1>
+{{#if user}}
+<h1>Welcome back, {{user.firstName}}!</h1>
+<a href="/profile">
+  <button type="button" class="btn btn-info">Edit your profile</button>
+</a>
+{{else}}
+<h1 style="display: inline;">Please login first</h1>
+<a href="/login">
+  <button type="button" class="btn btn-info mx-5">Login</button>
+</a>
+{{/if}}
