@@ -1,6 +1,6 @@
-# AC學期2-3_A11_Q1_Check Password-set cookie
+# AC學期2-3_A11_Q1_Login Page - cookie
 
-AlphaCamp學期2-3，A10作業專案的Check Password-set cookie，  
+AlphaCamp學期2-3，A10作業專案的Login Page - cookie，  
 使用 Node.js , Express , express-handlebars 打造的login介面並認證資料。
 
 ## 功能描述
